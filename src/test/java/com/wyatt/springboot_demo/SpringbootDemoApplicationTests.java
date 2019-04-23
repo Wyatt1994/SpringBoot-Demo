@@ -17,7 +17,7 @@ public class SpringbootDemoApplicationTests {
 	@Autowired
 	private BlogProperties blogProperties;
 
-	private Logger logger = LoggerFactory.getLogger(this.getClass());
+	private static Logger logger = LoggerFactory.getLogger(SpringbootDemoApplicationTests.class);
 
 	@Value("${com.wyatt.blog.value}")
 	private String randomString;
