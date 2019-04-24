@@ -4,6 +4,9 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.concurrent.Callable;
+import java.util.concurrent.FutureTask;
+
 //Spring boot 应用标识
 @SpringBootApplication
 //mapper接口类扫描包配置
